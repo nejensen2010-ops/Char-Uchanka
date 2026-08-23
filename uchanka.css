@@ -1,3 +1,7 @@
+:root{
+    interpolate-size: allow-keywords;
+}
+
 body{
     background: radial-gradient(circle at top center, #006366 0%, #002021 70%);
     
@@ -293,6 +297,86 @@ hr{
     border:none;
     background-image: linear-gradient(in oklch to bottom, #5F4530, #2C2016);
 }
+
+
+
+
+
+
+
+
+
+
+#Relationships{
+    border: 3px solid green;
+    border-radius: 5px;
+    margin: 3px;
+    padding: 5px;
+    height:calc(100vh+400px);
+}
+#RE-title{
+    text-align: center;
+}
+#Relationships #RE-Con{
+    border: 3px solid green;
+    border-radius: 5px;
+    margin: 3px;
+    padding: 5px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    gap: 30px;
+    height:calc(70vh+400px);
+}
+#Relationships article{
+    border: 3px solid green;
+    border-radius: 5px;
+    margin: 3px;
+    padding: 5px;
+    width:200px;
+    height:50px;
+    background-color:#A68A57;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+
+    transform-origin: top center;
+    transition: transform 0.2s ease-in-out, height 0.3s ease-in-out;
+}
+#Relationships article:hover{
+    transform: translateY(-5px);
+    height:400px;
+    overflow-y: auto;
+    font-size: 16px;
+    z-index: 10;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Abilities{
+    border:3px solid green;
+    border-radius: 5px
+}
+
 
 
 
