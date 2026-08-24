@@ -7,11 +7,19 @@ body{
     
 }
 
+section{
+    border:3px solid darkgreen;
+    padding:5px;
+    margin:3px;
+    border-radius: 5px;
+}
+
 table{
     border-width: 2px;
     border-color: #000000;
     border-style: solid;
     border-radius:4px;
+    overflow: auto;
 }
 main{
     display:flex;
@@ -30,7 +38,6 @@ h2 {
     min-width:0;
     position:sticky;
     top: 10px;
-    height:fit-content;
     border: 5px solid black;
     border-color:transparent;
     border-radius: 5px;
@@ -38,7 +45,9 @@ h2 {
     linear-gradient(#A68A57, #A68A57) padding-box,
     linear-gradient(in oklch to bottom, #5F4530, #2C2016) border-box;
     padding: 5px;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height:calc(100vh - 20px);
 }
 
 #table-of-contents table {
@@ -362,20 +371,6 @@ hr{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #Abilities{
     border:3px solid green;
     border-radius: 5px;
@@ -528,4 +523,29 @@ hr{
     overflow-x: auto;
     margin:2px;
     background-color: #A68A57;
+}
+
+
+
+
+
+
+
+
+
+
+#CurEveLog #CEL-Wist-TABLE{
+    min-width:800px;
+    width: 90%;
+    border-collapse: collapse;
+}
+#CEL-Wist-TABLE-con{
+    overflow-x: auto;
+    max-width:90%;
+}
+#CurEveLog #CEL-Wist-TABLE td, #CurEveLog #CEL-Wist-TABLE th{
+    padding: 8px 12px;
+    border: 1px solid #000;
+    text-align: left;
+    vertical-align: top;
 }
