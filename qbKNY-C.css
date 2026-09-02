@@ -1,0 +1,14 @@
+#main{
+    overflow-y:auto;
+}
+#main table{
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+#main table td{
+    border:solid 2px green;
+    padding:3px;
+}
+#head {
+    font-weight: bold;
+}
